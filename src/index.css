@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family:  "Raleway", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+
+  background: -webkit-linear-gradient(90deg, #f5f5f5, #f0f0f0, #ececec);
+  background: linear-gradient(90deg, #f5f5f5, #f0f0f0, #ececec);
+  /*background: -webkit-linear-gradient(47deg, #768289, #011a27);
+  background: linear-gradient(47deg, #768289, #011a27);*/
+}
+
+.dark {
+  background: -webkit-linear-gradient(90deg, #011a27, #768289);
+  background: linear-gradient(90deg, #011a27, #768289);
+} 
